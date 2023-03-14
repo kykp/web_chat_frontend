@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+}
+.right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    max-height: calc(100vh);
+    overflow-y: auto;
+}
+.sticky {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    position: sticky;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    background-color: #FFF;
+    padding-bottom: 16px;
+}
+.input_icons{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.icon {
+    padding: 6px;
+}
+.icon:hover{
+    background: rgba(32, 31, 30, 0.04);
+    border-radius: 4px;
+    cursor: pointer;
+}
